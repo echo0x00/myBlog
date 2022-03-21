@@ -1,0 +1,139 @@
+a {
+    color: #cc0000;
+    text-decoration: none;
+   }
+a:visited {
+    color: #333333;
+    }
+a:hover {
+    color: #800000;
+    text-decoration: underline;
+    }
+
+.poppy-color {
+    color: #cc0000;
+    }
+
+.top-icon {
+    color: #666666;
+    padding: 0.6em;
+    margin-top: 1em;
+    }
+.top-icon:visited {
+    color: #666666;
+   }
+.top-icon:hover {
+    color: #800000;
+    text-decoration: underline;
+   }
+
+.icon{
+    color: #666666;
+    padding-right: 0.3em;
+}
+
+.header {
+    background-color: white;
+    opacity: .98;
+    position:fixed;
+    top:0;
+    z-index:9999;
+    width: 100%;
+    }
+
+.greeting {
+    padding-top: 8.8rem;
+}
+
+.title {
+    font-size: 1.1em;
+    margin: 0;
+    text-transform: uppercase;
+    color: #cc0000;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    left-padding: 2rem}
+
+.list {
+    padding:0;
+    list-style: none;
+}
+.list:li{
+    padding:6px;
+}
+.list li:before {
+    padding-right:1rem;
+    padding-left: 5rem;
+    font-weight: bold;
+    color:  #666666;
+    content: "\2714";
+    transition-duration: 0.5s;
+}
+
+.categories {
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+.category {
+    color: #cc0000;
+    }
+.category:visited {
+    color: #cc0000;
+    }
+.category:hover {
+    color: #800000;
+    text-decoration: underline;
+   }
+
+.tags {
+color: #666666;
+}
+
+.offtop {
+    color: #999999;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.page-body {
+     box-shadow: 0 0 1rem #ccc;
+      padding: 1rem;
+
+      border-radius: 0.3rem;
+}
+
+.card {
+     box-shadow: 0 0 0.5rem #ccc;
+      padding: 1em;
+      border-radius: 0.5rem;
+}
+
+.card-header {
+    color: #cc0000;
+    background-color: transparent;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+}
+.page-link:hover {
+    color: #800000;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #cc3333;
+    border-color: #cc3333;
+}
+
+.next-post{
+    font-size: 0.8em;
+}
