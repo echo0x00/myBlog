@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Блог про ИТ профессии</title>
+</head>
+<!--шапка, верхнее меню-->
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="64" height="64"
+                                                           alt="Alex Logo"/> Coder Blog</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-responsive"
+                    aria-controls="navbar-responsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-responsive">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="static-template.html">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--страница с контентом-->
+<div class="greeting">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+            </div>
+        </div> <!--greeting-->
+        <!-- Post -->
+        <div class="page-body">
+            <div class="blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <!--Заголовок-->
+                            <h1 class='title'>Рубрика: CODERS</h1>
+                            <hr>
+                            <!-- Тело поста-->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="card-deck">
+                                            <div class="card" style="width: 12rem;">
+                                                <a href="post.html"><img class="card-img-top" src="img/it3.jpeg"
+                                                                         alt="card test"></a>
+                                                <div class="card-body">
+                                                    <a href="post.html"><h6 class="card-title poppy-color">Пост про тестировщиков</h6></a>
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item"><i class="far fa-list-alt icon"></i> <a
+                                                            href="cat.html">CODERS</a></li>
+                                                    <li class="list-group-item"><i class="fas fa-calendar-alt icon"></i>
+                                                        <small class="text-muted"> 01.04.2022</small>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card" style="width: 12rem;">
+                                                <a href="post.html"><img class="card-img-top" src="img/it2.jpeg"
+                                                                         alt="card test"></a>
+                                                <div class="card-body">
+                                                    <a href="post.html"><h6 class="card-title poppy-color">Пост про прогеров</h6></a>
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item"><i class="far fa-list-alt icon"></i> <a
+                                                            href="cat.html">CODERS</a></li>
+                                                    <li class="list-group-item"><i class="fas fa-calendar-alt icon"></i>
+                                                        <small class="text-muted"> 01.04.2022</small>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card" style="width: 12rem;">
+                                                <a href="post.html"><img class="card-img-top" src="img/it1.jpeg"
+                                                                         alt="card test"></a>
+                                                <div class="card-body">
+                                                   <a href="post.html"><h6 class="card-title poppy-color">Пост про тимлида</h6></a>
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item"><i class="far fa-list-alt icon"></i> <a
+                                                            href="cat.html">CODERS</a></li>
+                                                    <li class="list-group-item"><i class="fas fa-calendar-alt icon"></i>
+                                                        <small class="text-muted"> 01.04.2022</small>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pb-3"></div>
+
+                                <!--пагинация-->
+                                <nav>
+                                    <div class="my-pagination">
+                                        <ul class="pagination justify-content-center">
+                                            <li class="page-item">
+                                                <a class="page-link" href="#"
+                                                >Previous</a>
+                                            </li>
+                                            <li class="page-item active" aria-current="page"><a class="page-link"
+                                                                                                href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#">Next</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+
+
+                            </div>
+                        </div><!--page-body-->
+
+                        <!--Правая колонка с виджетами и навигацией-->
+                        <div class="col-lg-3">
+                            <!-- Search Form -->
+                            <div class="search">
+                                <form>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="search" name="search"
+                                               placeholder="Искать">
+                                        <button type="submit" class="btn btn-secondary">Ok!</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- меню с рубриками -->
+                            <div class="rubrics">
+                                <div class="card my-4">
+                                    <h5 class="card-header poppy-color">Рубрики</h5>
+                                    <div class="card-body">
+                                        <ul class="list-unstyled categories">
+                                            <li>
+                                                <a href="cat.html">CODERS</a>
+                                            </li>
+                                            <li>
+                                                <a href="cat.html">DESIGNERS</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- SUBSCRIBE Form -->
+                            <div class="subscribe">
+                                <form>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="subscribe" name="subscribe"
+                                               placeholder="Подписаться">
+                                        <button class="btn btn-secondary" type="submit">Ok!</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Карточка-->
+                            <div class="card my-4">
+                                <h5 class="card-header poppy-color">Популярноое</h5>
+                                <div class="card-body">
+                                </div>
+                            </div>
+                            <!-- просто отбивка -->
+                            <div class="something-text">
+                                <hr>
+                                Какой нибудь текст или облако тегов
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--футер-->
+<div class="pt-3 pb-3 "></div>
+<nav class="navbar navbar-light bg-light">
+    <div class="container">
+        <div class="row">
+            <a class="top-icon pb-3" href="mailto:savproga@mail.ru">Copyright &copy; 2022, Шакмаев Александр </a>
+        </div>
+    </div>
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
